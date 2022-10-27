@@ -37,13 +37,12 @@
     list-style: none;
     margin-right: 20px;
     margin-left: 20px;
-    padding-top: 5px;
     justify-content: space-between;
     align-items: center;
 }
 .barra:hover {
     cursor: pointer;
-    color: rgb(0, 255, 234);
+    color: rgb(28, 103, 183);
 }
 .header-content ul {
     display: flex;
@@ -54,4 +53,66 @@
     align-content: center;
     justify-content: center;    
     
+}
+.jumbotron {
+    background: url(background.jpg);
+    background-size: 100%;
+    height: 350px;
+    display: flex;
+}
+.jum-ingresar   {
+    width: 35%;
+    height: 280px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: fantasy;
+    color: rgb(255, 255, 255);
+    text-align: center;  
+    background-color: rgba(0, 21, 255, 0.3);
+    border-radius: 10px; 
+}
+.text {
+    padding-top: 100px;
+}
+.registrarse {
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(183, 28, 28);
+    font-family: serif;
+    font-size: 15px;
+}   
+.registrarse:hover {
+    color: aliceblue;
+}
+.buscar {
+    width: 60%;
+    height: 350px;
+    text-align: center;
+    font-family:times new 'Times New Roman';
+    font-size: 25px;
+    color: aliceblue;
+
+}
+.search {
+    margin-top: 30px;
+    border-radius: 8px;
+    background-color: whiteS;
+    border-color: rgb(28, 103, 183);
+    
+}
+.submit {
+    border-radius: 8px;
+    cursor: pointer;
+    background: white;
+}
+.submit:hover {
+    background:rgb(28, 103, 183) ; 
+}
+.text1 {
+    font-size: 10px;
+    font-family: arial;
+    text-align: center;
+    margin-top: 140px;
 }
