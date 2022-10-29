@@ -1,0 +1,313 @@
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .checkbtn{
+        display: block;
+    }
+    .header-content ul {
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height:100vh;
+        top: 110px;
+        background: dimgray;
+        left: -150%;
+        text-align: center;
+        transition: all .5s;
+       
+    }
+    .header-content li{
+        display: block;
+        
+        line-height: 30px;
+        
+    }
+    .header-content li:hover{
+        color: blue;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+    } 
+
+
+
+
+    .jumbotron {
+        background: url(background.jpg);
+        background-size: cover;
+        height: 350px;
+        display: flex;
+    }
+    .jum-ingresar   {
+        width: 35%;
+        height: 200px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px;
+        font-size: 25px;
+        font-family: fantasy;
+        color: rgb(255, 255, 255);
+        text-align: center;  
+        background-color: rgba(0, 21, 255, 0.3);
+        border-radius: 10px; 
+    }
+    .text {
+        padding-top: 60px;
+        font-size: 20PX;
+    }
+    .registrarse {
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: rgb(183, 28, 28);
+        font-family: serif;
+        font-size: 15px;
+    }   
+    .registrarse:hover {
+        color: aliceblue;
+    }
+    .buscar {
+        width: 60%;
+        height: 350px;
+        text-align: center;
+        font-family:times new 'Times New Roman';
+        font-size: 25px;
+        color: aliceblue;
+    
+    }
+    .search {
+        margin-top: 30px;
+        border-radius: 8px;
+        background-color: whiteS;
+        border-color: rgb(28, 103, 183);
+        
+    }
+    .submit {
+        border-radius: 8px;
+        cursor: pointer;
+        background: white;
+    }
+    .submit:hover {
+        background:rgb(28, 103, 183) ; 
+    }
+    .text1 {
+        font-size: 10px;
+        font-family: arial;
+        text-align: center;
+        margin-top: 150px;
+    }
+
+
+
+
+    .catalogo {
+        width: 100%;
+        background-color:bisque ;
+        
+    }
+    .catTitulo{
+        text-align: center;
+        padding-top: 25px;
+    }
+    .blog{
+        width: 100%;
+        height: 2450px;
+        background-color:bisque ;
+        
+    }
+    .item{
+        width: 300px;
+        height: 360px;
+        display: flex;
+        float: left;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+        border-radius: 10px;
+        border: solid 2px  rgb(28, 103, 183);
+        flex-direction: column;
+        background: black;
+        color: aliceblue;
+    
+    }
+    .imagenProducto{
+        width: 350px;
+        height: 230px;
+        
+    }
+    .autos{
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .infoCar{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .negociar{
+        border:solid rgb(28, 103, 183) 2px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        margin-left: 120px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100px;
+        height: 25px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .negociar:hover{
+        color: rgb(183, 28, 28);
+        
+    }
+    .ver{
+        border:solid rgb(28, 103, 183) 2px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        margin-left: 150px;
+        margin-top: 30px;
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .ver:hover{
+        color: rgb(28, 103, 183);
+    
+    }
+    .cuadro{
+        background-color: rgba(0,0,0,.8);
+        position:fixed;
+        top:-250px;
+        right:0;
+        bottom:0;
+        left:0;
+        opacity:0;
+        pointer-events:none;
+        transition: all 1s;
+    }
+    #modal:target{
+        opacity: 1;
+        pointer-events: auto;
+    
+    }
+    .galeria{
+        width: 350px;
+        height: 500px;
+        margin-top: 300px;
+        margin-left: 400px;
+        background-color: rgba(239, 181, 181, 0.3);
+        position: relative;
+        padding: 10px 20px;
+    }
+    .cierreVent{
+        direction: none;
+        color: aliceblue;
+    }
+    .ventTitulo{
+        text-align: center;
+        color: black;
+    }
+    .ventInfo{
+        margin-top: 20px;
+        text-align: center;
+        color: black;
+    }
+    .garantia{
+        text-align: center;
+        margin-top: 20px;
+        color: black;
+    }
+    .compra{
+        background-color: rgb(28, 103, 183);
+        margin-left: 115px;
+        margin-top: 40px;
+        border: solid black 1px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .compra:hover{
+        color: aliceblue;
+    }
+    #modal1:target{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    #modal2:target{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    #modal3:target{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    #modal4:target{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    #modal5:target{ 
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+
+
+
+    .adicionales{
+        width: 100%;
+    }
+    .adiTitulo{
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+        background-color:antiquewhite ;
+    
+    }
+    .adicContainer{
+        width: 100%;
+        height: 1350px;
+        background-color: antiquewhite;
+    }
+    .item1{
+        width: 350px;
+        height: 400px;
+        display: flex;
+        float: left;
+        margin: 20px;
+        border-radius: 12px;
+        border: solid 2px  rgb(183, 28, 28);
+        flex-direction: column;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
+    .infoMan{
+        text-align: center;
+        margin-top: 25px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .manText{
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .service{
+        border:solid rgb(28, 103, 183) 2px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        margin-left: 105px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 150px;
+        height: 25px;
+        cursor: pointer;
+        text-decoration: none;
+    
+    }
+}
