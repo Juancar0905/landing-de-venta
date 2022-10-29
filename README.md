@@ -1,8 +1,10 @@
 # LANDING DE VENTA
-Esta pagina trata de la venta de autos.
+Esta pagina trata de la venta de autos, mantenimiento de vehiculos y la venta de lubricantes.
+
 
 ### HERRAMIENTAS
 Este proyecto se realizo mediante html y css.
+
 
 ### ARQUITECTURA
 - *index.html*: estructura de pagina .
