@@ -1,9 +1,6 @@
 # LANDING DE VENTA
 Esta pagina trata de la venta de autos.
 
-![AUTOCAR](car1.jpg)
-
-
 ### HERRAMIENTAS
 Este proyecto se realizo mediante html y css.
 
